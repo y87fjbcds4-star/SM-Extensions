@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SM Extensions | Carrickfergus</title>
+<meta name="description" content="SM Extensions in Carrickfergus, Northern Ireland. Discover your perfect hair and book your appointment.">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="#home" class="logo">SM <span>EXTENSIONS</span></a>
+
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#location">Location</a>
+      <a href="https://www.instagram.com/sm_extensions_/"
+         target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="#booking" class="btn">Book now</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div>
+    <div class="eyebrow">SM Extensions · Carrickfergus</div>
+
+    <h1>Your hair.<br>Your confidence.<br><em>Your moment.</em></h1>
+
+    <p>
+      Elevate your look with beautiful hair extensions,
+      personalised service and a finish that feels completely you.
+    </p>
+
+    <a href="#booking" class="btn">Book an appointment</a>
+  </div>
+
+  <div class="hero-image" role="img"
+       aria-label="Beauty editorial portrait">
+    <div class="image-caption">A little luxury, just for you.</div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+
+    <div class="section-title">
+      <div class="eyebrow">The service menu</div>
+      <h2>Find your perfect look.</h2>
+      <p>
+        Every appointment starts with your hair goals.
+        Select a service below and request your appointment.
+      </p>
+    </div>
+
+    <div class="services">
+      <article class="service-card">
+        <div class="number">01 / CONSULTATION</div>
+        <h3>Hair consultation</h3>
+        <p>
+          Discuss your desired length, volume, colour match
+          and the best extension method for your hair.
+        </p>
+        <div class="price">Price confirmed on enquiry</div>
+      </article>
+
+      <article class="service-card">
+        <div class="number">02 / NEW SET</div>
+        <h3>Hair extensions</h3>
+        <p>
+          A personalised appointment focused on your ideal
+          length, added volume and seamless blend.
+        </p>
+        <div class="price">Personalised quote</div>
+      </article>
+
+      <article class="service-card">
+        <div class="number">03 / MAINTENANCE</div>
+        <h3>Maintenance & refit</h3>
+        <p>
+          Keep your extensions looking their best with
+          maintenance tailored to your extension method.
+        </p>
+        <div class="price">Price confirmed on enquiry</div>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="container booking-layout">
+
+    <div class="booking-info">
+      <div class="eyebrow">Your next appointment</div>
+      <h2>Let's get you booked.</h2>
+
+      <p>
+        Choose your service, select an available date and
+        pick a time that suits you.
+      </p>
+
+      <p>
+        Based in Carrickfergus, Northern Ireland.
+        Submit your request and contact SM Extensions
+        on Instagram to arrange confirmation.
+      </p>
+
+      <p class="note">
+        Appointment availability shown here is a demonstration.
+        Your request is not confirmed until the business
+        confirms it.
+      </p>
+    </div>
+
+    <div class="booking-form">
+      <h3>Request a booking</h3>
+
+      <form id="bookingForm">
+        <div class="form-grid">
+
+          <div class="field full">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Choose a service</option>
+              <option>Hair consultation</option>
+              <option>Hair extensions — new set</option>
+              <option>Maintenance / refit</option>
+              <option>Extension removal</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="date">Appointment date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+
+          <div class="field">
+            <label for="time">Available time</label>
+            <select id="time" name="time" required disabled>
+              <option value="">Choose a date first</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text"
+                   autocomplete="name" required
+                   placeholder="Your name">
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel"
+                   autocomplete="tel" required
+                   placeholder="Your number">
+          </div>
+
+          <div class="field full">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email"
+                   autocomplete="email" required
+                   placeholder="you@example.com">
+          </div>
+
+          <div class="field full">
+            <label for="notes">Additional details (optional)</label>
+            <textarea id="notes" name="notes" rows="3"
+              placeholder="Tell us about your desired look..."></textarea>
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn form-button">
+          Prepare booking request
+        </button>
+
+        <div id="message" class="form-message"
+             role="status" aria-live="polite"></div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<section id="location">
+  <div class="container location-layout">
+
+    <div class="location-art" aria-label="SM Extensions branding">
+      SM
+    </div>
+
+    <div class="location-info">
+      <div class="eyebrow">Come and visit</div>
+      <h2>Your hair journey starts here.</h2>
+
+      <p>
+        SM Extensions is based in Carrickfergus,
+        Northern Ireland.
+      </p>
+
+      <div class="location-detail">
+        <strong>Location</strong>
+        <span>Carrickfergus, County Antrim, Northern Ireland</span>
+      </div>
+
+      <div class="location-detail">
+        <strong>Appointments</strong>
+        <span>By appointment — contact us to confirm availability</span>
+      </div>
+
+      <div class="location-detail">
+        <strong>Instagram</strong>
+        <span>
+          <a href="https://www.instagram.com/sm_extensions_/"
+             target="_blank" rel="noopener noreferrer">
+            @sm_extensions_
+          </a>
+        </span>
+      </div>
+
+      <br>
+      <a href="https://www.google.com/maps/search/?api=1&query=Carrickfergus%2C+Northern+Ireland"
+         target="_blank" rel="noopener noreferrer" class="btn">
+        View Carrickfergus on Maps
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section class="instagram">
+  <div class="eyebrow eyebrow-light">
+    Let's connect
+  </div>
+
+  <h2>Follow the hair journey.</h2>
+
+  <p>
+    Discover styles, inspiration and updates from SM Extensions.
+  </p>
+
+  <a class="btn"
+     href="https://www.instagram.com/sm_extensions_/"
+     target="_blank" rel="noopener noreferrer">
+    Follow @sm_extensions_
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <div class="logo">SM <span>EXTENSIONS</span></div>
+  <p>Carrickfergus, Northern Ireland</p>
+  <p>© <span id="year"></span> SM Extensions. All rights reserved.</p>
+</footer>
+
+<script>
+const dateInput = document.getElementById("date");
+const timeSelect = document.getElementById("time");
+const form = document.getElementById("bookingForm");
+const message = document.getElementById("message");
+
+// Automatically update the copyright year.
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+// Don't allow dates in the past.
+function localDateString(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+dateInput.min = localDateString(new Date());
+
+// Demonstration opening hours and sample appointment slots.
+// Replace these with the salon's real availability.
+const appointmentTimes = [
+  "09:00",
+  "10:00",
+  "11:30",
+  "13:00",
+  "14:30",
+  "16:00"
+];
+
+function updateAvailableTimes() {
+  const selectedDate = dateInput.value;
+
+  timeSelect.innerHTML = "";
+  message.classList.remove("show");
+
+  if (!selectedDate) {
+    timeSelect.disabled = true;
+    timeSelect.add(new Option("Choose a date first", ""));
+    return;
+  }
+
+  // Use midday to avoid timezone shifts affecting the weekday.
+  const weekday = new Date(selectedDate + "T12:00:00").getDay();
+
+  if (weekday === 0) {
+    timeSelect.disabled = true;
+    timeSelect.add(
+      new Option("Closed Sundays — choose another date", "")
+    );
+    return;
+  }
+
+  timeSelect.disabled = false;
+  timeSelect.add(new Option("Select a time", ""));
+
+  // Example slots only. This does not check a real salon calendar.
+  appointmentTimes.forEach((time, index) => {
+    const dayNumber = Number(selectedDate.slice(-2));
+
+    // Vary example availability between dates.
+    if ((dayNumber + index) % 5 !== 0) {
+      timeSelect.add(new Option(time, time));
+    }
+  });
+
+  if (timeSelect.options.length === 1) {
+    timeSelect.disabled = true;
+    timeSelect.innerHTML = "";
+    timeSelect.add(
+      new Option("No sample slots — choose another date", "")
+    );
+  }
+}
+
+dateInput.addEventListener("change", updateAvailableTimes);
+
+// This front-end demonstration prepares a request but does not
+// email, store, or confirm a real appointment.
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  if (!form.reportValidity()) return;
+
+  const data = new FormData(form);
+  const chosenDate = new Date(data.get("date") + "T12:00:00");
+
+  const formattedDate = chosenDate.toLocaleDateString("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  });
+
+  // Build the request with text nodes to avoid interpreting
+  // customer-provided input as HTML.
+  message.replaceChildren();
+
+  const heading = document.createElement("strong");
+  heading.textContent = "Your booking request is ready!";
+  message.appendChild(heading);
+
+  const details = document.createElement("p");
+  details.className = "form-message-details";
+  details.textContent =
+    "Service: " + data.get("service") +
+    " | Date: " + formattedDate +
+    " | Time: " + data.get("time");
+
+  message.appendChild(details);
+
+  const contact = document.createElement("p");
+  contact.className = "form-message-contact";
+  contact.textContent =
+    "No appointment has been reserved or sent yet. Contact SM Extensions on Instagram to confirm your request.";
+
+  message.appendChild(contact);
+
+  const instagramLink = document.createElement("a");
+  instagramLink.href = "https://www.instagram.com/sm_extensions_/";
+  instagramLink.target = "_blank";
+  instagramLink.rel = "noopener noreferrer";
+  instagramLink.className = "btn";
+  instagramLink.classList.add("form-message-link");
+  instagramLink.textContent = "Contact us on Instagram";
+
+  message.appendChild(instagramLink);
+  message.classList.add("show");
+});
+</script>
+
+</body>
+</html>
