@@ -12,15 +12,14 @@
 <body>
 
 <header>
-  <nav>
-    <a href="#home" class="logo">SM <span>EXTENSIONS</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#home" class="nav-brand">SM <span>Extensions</span></a>
 
     <div class="nav-links">
       <a href="#services">Services</a>
+      <a href="#booking">Booking</a>
       <a href="#location">Location</a>
-      <a href="https://www.instagram.com/sm_extensions_/"
-         target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a href="#booking" class="btn">Book now</a>
+      <a href="#instagram">Instagram</a>
     </div>
   </nav>
 </header>
@@ -28,7 +27,7 @@
 <main>
 
 <section class="hero" id="home">
-  <div>
+  <div class="hero-content">
     <div class="eyebrow">SM Extensions · Carrickfergus</div>
 
     <h1>Your hair.<br>Your confidence.<br><em>Your moment.</em></h1>
@@ -38,13 +37,9 @@
       personalised service and a finish that feels completely you.
     </p>
 
-    <a href="#booking" class="btn">Book an appointment</a>
   </div>
 
-  <div class="hero-image" role="img"
-       aria-label="Beauty editorial portrait">
-    <div class="image-caption">A little luxury, just for you.</div>
-  </div>
+  <a href="#booking" class="btn hero-booking-btn">Book an appointment</a>
 </section>
 
 <section id="services">
@@ -107,7 +102,6 @@
       </p>
 
       <p>
-        Based in Carrickfergus, Northern Ireland.
         Submit your request and contact SM Extensions
         on Instagram to arrange confirmation.
       </p>
@@ -191,38 +185,13 @@
 
 <section id="location">
   <div class="container location-layout">
-
-    <div class="location-art" aria-label="SM Extensions branding">
-      SM
-    </div>
-
     <div class="location-info">
       <div class="eyebrow">Come and visit</div>
       <h2>Your hair journey starts here.</h2>
 
-      <p>
-        SM Extensions is based in Carrickfergus,
-        Northern Ireland.
-      </p>
-
       <div class="location-detail">
         <strong>Location</strong>
         <span>Carrickfergus, County Antrim, Northern Ireland</span>
-      </div>
-
-      <div class="location-detail">
-        <strong>Appointments</strong>
-        <span>By appointment — contact us to confirm availability</span>
-      </div>
-
-      <div class="location-detail">
-        <strong>Instagram</strong>
-        <span>
-          <a href="https://www.instagram.com/sm_extensions_/"
-             target="_blank" rel="noopener noreferrer">
-            @sm_extensions_
-          </a>
-        </span>
       </div>
 
       <br>
@@ -235,22 +204,30 @@
   </div>
 </section>
 
-<section class="instagram">
+<section class="instagram" id="instagram">
   <div class="eyebrow eyebrow-light">
     Let's connect
   </div>
 
-  <h2>Follow the hair journey.</h2>
+  <h2>Discover the hair journey.</h2>
 
   <p>
     Discover styles, inspiration and updates from SM Extensions.
   </p>
 
-  <a class="btn"
-     href="https://www.instagram.com/sm_extensions_/"
-     target="_blank" rel="noopener noreferrer">
-    Follow @sm_extensions_
-  </a>
+  <div class="instagram-contact">
+    <a class="instagram-logo-link"
+       href="https://www.instagram.com/sm_extensions_/"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Visit SM Extensions on Instagram">
+      <img src="instagram.jpg" alt="">
+    </a>
+    <a class="instagram-handle"
+       href="https://www.instagram.com/sm_extensions_/"
+       target="_blank" rel="noopener noreferrer">
+      @sm_extensions_
+    </a>
+  </div>
 </section>
 
 </main>
